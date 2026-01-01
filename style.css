@@ -40,3 +40,8 @@ body {
     transform: scale(1.03);
     filter: brightness(1.2);
 }
+.text.active {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    transition: transform 0.15s ease, filter 0.15s ease;
+}
